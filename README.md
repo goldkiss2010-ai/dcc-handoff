@@ -37,6 +37,8 @@ DCC Handoff is not a new scene format and is not a replacement for USD, Alembic,
 
 The host implementations are intentionally separate repositories. This repository is the map and architectural boundary between them; it does not duplicate their binaries, installers, caches, or host-specific source.
 
+A host-independent [FLD1 Asset Pack v01](https://github.com/goldkiss2010-ai/ae-handoff/releases/download/v1.15-preview.1/FLD1_Asset_Pack_v01.zip) provides the same six example fields for AE Handoff, Fusion Handoff, or another FLD1 reader. The package contains five 20K fields and a 1M-particle Vortex Ring.
+
 ## What is handed off
 
 The current FLD1 `point3-pv` profile stores, per particle and per saved state:
